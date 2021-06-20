@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grid</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__nav nav">
+                <div class="nav__wrapper">
+                    <input type="checkbox" name="burger-checkbox" class="nav__burger-checkbox" id="burger-checkbox" />
+                    <label for="burger-checkbox" class="nav__burger-container">
+                        <span class="nav__burger"></span>
+                    </label>
+
+                    <a href="index.html" class="nav__logo">
+                        <img src="images/logo.svg" alt="" class="nav__logo-image" />
+                        <h2 class="nav__logo-title">Grid</h2>
+                    </a>
+
+                    <ul class="nav__links">
+                        <li><a href="index.html" class="nav__link active">How it works</a></li>
+                        <li><a href="#" class="nav__link">Who we are</a></li>
+                        <li><a href="#" class="nav__link">What we do</a></li>
+                        <li><a href="#" class="nav__link">Contact us</a></li>
+                    </ul>
+
+                    <a href="#" class="nav__button">Sign in</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="welcome"></section>
+
+            <section class="statistics">
+                <div class="statistics__wrapper">
+                    <h2 class="statistics__title">Delivering good designs <span>since 1954</span> 🚚💨</h2>
+                    <p class="statistics__text">
+                        We’re the first multi-purpose design kit solutions for businesses. We help you bridge gaps between your layouts, templates and
+                        developers to empower all involved.
+                    </p>
+
+                    <div class="statistics__items">
+                        <div class="statistics__item">
+                            <div class="statistics__item-image"></div>
+                            <h3 class="statistics__item-title">Support</h3>
+                            <p class="statistics__item-text">
+                                Delivering faster and more personalized support with shared screens and cool design systems for Figma
+                            </p>
+                            <a href="" class="statistics__item-button">Learn more</a>
+                        </div>
+                        <div class="statistics__item">
+                            <div class="statistics__item-image"></div>
+                            <h3 class="statistics__item-title">Sales growth</h3>
+                            <p class="statistics__item-text">
+                                Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot
+                            </p>
+                            <a href="" class="statistics__item-button">Learn more</a>
+                        </div>
+                        <div class="statistics__item">
+                            <div class="statistics__item-image"></div>
+                            <h3 class="statistics__item-title">Coponents-driven</h3>
+                            <p class="statistics__item-text">
+                                Delivering faster and more personalized support with shared screens and cool design systems for Figma
+                            </p>
+                            <a href="" class="statistics__item-button">Learn more</a>
+                        </div>
+                        <div class="statistics__item">
+                            <div class="statistics__item-image"></div>
+                            <h3 class="statistics__item-title">Swap the icon</h3>
+                            <p class="statistics__item-text">
+                                You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter
+                            </p>
+                            <a href="" class="statistics__item-button">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pricing">
+                <div class="pricing__wrapper">
+                    <h2 class="pricing__title">Pricing</h2>
+                    <div class="pricing__billing-type">
+                        Bill me
+                        <label for="billing-monthly"
+                            ><input type="radio" class="pricing__radio" name="billing-type" id="billing-monthly" /><span>monthly</span></label
+                        >
+                        •
+                        <label for="billing-yearly"
+                            ><input type="radio" class="pricing__radio" name="billing-type" id="billing-yearly" checked /><span>yearly</span></label
+                        >
+                    </div>
+                    <div class="pricing__plans">
+                        <div class="pricing__plan">
+                            <h3 class="pricing__plan-title">Individual</h3>
+                            <p class="pricing__plan-price">$8.99 / month</p>
+                            <div class="pricing__plan-perk">Unlimited hosting</div>
+                            <div class="pricing__plan-perk">Free storage</div>
+                            <div class="pricing__plan-perk">Lifetime support</div>
+                            <div class="pricing__plan-perk">Constant updates</div>
+                            <button class="pricing__plan-button">Get started!</button>
+                        </div>
+                        <div class="pricing__plan">
+                            <div class="pricing__plan-title-container">
+                                <h3 class="pricing__plan-title">Professional</h3>
+                                <p class="pricing__plan-tag">Good</p>
+                            </div>
+                            <p class="pricing__plan-price">$12.99 / month</p>
+                            <div class="pricing__plan-perk">Unlimited hosting</div>
+                            <div class="pricing__plan-perk">Free storage</div>
+                            <div class="pricing__plan-perk">Lifetime support</div>
+                            <div class="pricing__plan-perk">Constant updates</div>
+                            <button class="pricing__plan-button">Select this plan!</button>
+                        </div>
+                        <div class="pricing__plan premium">
+                            <div class="pricing__plan-title-container">
+                                <h3 class="pricing__plan-title">Enterprise</h3>
+                                <p class="pricing__plan-tag">Best</p>
+                            </div>
+                            <p class="pricing__plan-price">$32.99 / month</p>
+                            <div class="pricing__plan-perk">Unlimited hosting</div>
+                            <div class="pricing__plan-perk">Free storage</div>
+                            <div class="pricing__plan-perk">Lifetime support</div>
+                            <div class="pricing__plan-perk">Constant updates</div>
+                            <button class="pricing__plan-button">Start today!</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <h2 class="footer__subtitle form">Keep in touch</h2>
+                <form action="" class="footer__form">
+                    <label for="" class="footer__label">
+
+                        <input type="text" class="footer__input" />
+                    </label>
+
+                    <label for="" class="footer__label">
+                        <input type="email" class="footer__input" />
+                    </label>
+                    
+                    <textarea name="" id="" cols="30" rows="5" class="footer__textarea"></textarea>
+                    <button type="submit" class="footer__button">SEND</button>
+                </form>
+
+                <h2 class="footer__subtitle">Follow us</h2>
+                <a href="mailto:hello@fapsterapp.com" class="footer__mail">hello@fapsterapp.com</a>
+                <div class="footer__social">
+                    <a href="#" class="footer__link" target="_blank"><img src="images/icon-social-facebook.svg" alt="" /></a>
+                    <a href="#" class="footer__link" target="_blank"><img src="images/icon-social-linkedin.svg" alt="" /></a>
+                    <a href="#" class="footer__link" target="_blank"><img src="images/icon-social-slack.svg" alt="" /></a>
+                    <a href="#" class="footer__link" target="_blank"><img src="images/icon-social-twitter.svg" alt="" /></a>
+                    <a href="#" class="footer__link" target="_blank"><img src="images/icon-social-youtube.svg" alt="" /></a>
+                </div>
+                <h3 class="footer__copyright">Copyright © 2018 • Your Company<br />All rights reserved</h3>
+            </div>
+        </footer>
+
+        <script>
+            // lock body when burger menu is open
+            document.querySelector(".nav__burger-checkbox").addEventListener("change", function () {
+                if (this.checked) {
+                    document.body.style.overflow = "hidden";
+                } else {
+                    document.body.style.overflow = "visible";
+                }
+            });
+        </script>
+    </body>
+</html>
